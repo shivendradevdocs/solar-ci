@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-        nodejs 'node-24-24-1'
+        nodejs 'node-24-4-1'
     }
     stages{
         stage('Installing Dependencies'){
